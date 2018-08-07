@@ -1,0 +1,66 @@
+Add-in Express Loader Log File: 04/15/2016 17:28:00:156
+
+Startup directory: C:\Program Files (x86)\WinZip\
+Loader version: 7.2.4055.0
+Operating System: Microsoft  (build 9200), 64-bit
+Process Owner: Administrator
+Command Line: "C:\Program Files\Microsoft Office 15\Root\Office15\EXCEL.EXE" /dde
+Run 'As Administrator': No
+Process Elevated: No
+Integrity Level: Medium
+UAC (User Account Control): On
+------------------------------------------------------------------------
+17:28:00:200 2668 8768 Start.
+17:28:00:201 2668 8768 Reading the registry key 'HKEY_CLASSES_ROOT\CLSID\{CB2B673F-D441-4CD4-AFBE-DC4037CA4220}'
+17:28:00:201 2668 8768 Success. The registry key 'HKEY_CLASSES_ROOT\CLSID\{CB2B673F-D441-4CD4-AFBE-DC4037CA4220}' is closed.
+17:28:00:201 2668 8768 Converting the '{4BA250A6-8BCA-46A6-982A-F340081187C3}' CLSID from string.
+17:28:00:202 2668 8768 Success.
+17:28:00:202 2668 8768 Attempting to get the class object by the '{4BA250A6-8BCA-46A6-982A-F340081187C3}' CLSID.
+17:28:00:202 2668 8768 Success.
+17:28:00:202 2668 8768 Creating a new instance of the add-in loader.
+17:28:00:202 2668 8768 Loading mscoree.dll
+17:28:00:204 2668 8768 Success.
+17:28:00:204 2668 8768 Loading the configuration from the system registry.
+17:28:00:206 2668 8768 Getting the latest CLR version.
+17:28:00:459 2668 8768 The latest CLR version is 'v4.0.30319'.
+17:28:00:459 2668 8768 The configuration has been loaded successfully.
+17:28:00:460 2668 8768     Runtime version: v2.0.50727.
+17:28:00:460 2668 8768     Assembly name: WinZipExpressForOffice, PublicKeyToken=86E07F6D9D2175EE.
+17:28:00:460 2668 8768     Class name: WinZipExpressForOffice.AddinModule.
+17:28:00:460 2668 8768     Registry key: CLSID\{CB2B673F-D441-4CD4-AFBE-DC4037CA4220}.
+17:28:00:460 2668 8768 Attempting to create a new instance of the managed add-in class: CLR - v2.0.50727
+17:28:00:460 2668 8768 Loading CLR: v2.0.50727.
+17:28:00:460 2668 8768 Calling CLRCreateInstance method.
+17:28:00:460 2668 8768 Success.
+17:28:00:460 2668 8768 Calling GetRuntime method.
+17:28:00:461 2668 8768 Success.
+17:28:00:461 2668 8768 Checking if the hosting API of .NET Framework v4.0 beta is installed.
+17:28:03:467 2668 8768 The hosting API is up to date.
+17:28:03:467 2668 8768 Calling GetInterface method for the CorRuntimeHost interface.
+17:28:03:483 2668 8768 Success.
+17:28:03:483 2668 8768 Starting CLR...
+17:28:03:483 2668 8768 Success.
+17:28:03:484 2668 8768 Getting the CLR version.
+17:28:03:484 2668 8768 The CLR v2.0.50727 has been initialized successfully.
+17:28:03:484 2668 8768 Creating a new domain setup.
+17:28:03:562 2668 8768 Success.
+17:28:03:563 2668 8768 Getting the add-in directory.
+17:28:03:563 2668 8768 Success. The directory is 'C:\Program Files (x86)\WinZip\'
+17:28:03:639 2668 8768 The 'shadow copy' is enabled.
+17:28:03:639 2668 8768 Creating a new application domain.
+17:28:03:896 2668 8768 Success.
+17:28:03:896 2668 8768 Creating an instance of the managed class. Assembly identity: 'WinZipExpressForOffice, PublicKeyToken=86E07F6D9D2175EE'
+17:28:09:493 2668 8768 Success.
+17:28:09:493 2668 8768 Unwrapping the managed class.
+17:28:10:162 2668 8768 Success.
+17:28:10:163 2668 8768 Querying the add-in extensibility.
+17:28:10:179 2668 8768 Success.
+17:28:10:179 2668 8768 Querying the custom task panes.
+17:28:10:179 2668 8768 Success.
+17:28:10:179 2668 8768 Querying the ribbon extensibility.
+17:28:10:179 2668 8768 Success.
+17:28:10:179 2668 8768 Querying the form regions.
+17:28:10:180 2668 8768 Success.
+17:28:10:180 2668 8768 Getting the dispid of the 'Dispose' method.
+17:28:10:238 2668 8768 Success.
+17:28:10:239 2668 8768 The managed add-in class has been created successfully.
